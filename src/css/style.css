@@ -589,6 +589,11 @@
    background-size: 24px;
    font-family: "Montserrat", sans-serif;
 }
+.filter-group select.find{
+   background-image: unset;
+   text-align: center;
+   padding-right: 16px;
+}
 
 .search-filter-wrapper .filter-group select:focus-visible {
    outline: 1px solid #E8EAEE;
