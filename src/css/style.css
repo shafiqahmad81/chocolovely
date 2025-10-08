@@ -577,6 +577,7 @@
    line-height: 24px;
    letter-spacing: -0.02em;
    color: #BC798A;
+   cursor: pointer;
 }
 
 .search-filter-wrapper .filter-group select {
@@ -589,10 +590,17 @@
    background-size: 24px;
    font-family: "Montserrat", sans-serif;
 }
-.filter-group select.find{
-   background-image: unset;
-   text-align: center;
-   padding-right: 16px;
+.filter-group .find{
+   padding: 12px 16px;
+   background-color: transparent;
+   border: 1px solid #E8EAEE;
+   font-family: 'Helvetica';
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: -0.02em;
+   color: #BC798A;
+   cursor: pointer;
 }
 
 .search-filter-wrapper .filter-group select:focus-visible {
